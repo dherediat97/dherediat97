@@ -5,15 +5,56 @@
     
 #
 ### A few things to know about me...
-```java
-public ArrayList<String> myList = ArrayList<String>();
-public String[] insterestArray = new String["Coding", "Animation", "Music", "Gaming"];
-public String[] currentlyLearningArray = new String["Android compose", "Clean architechture", "UX design"];
-public static void main(String[] args) {
-    myList.add("name = David Heredia Tartajo")
-    myList.add("interests = " + insterestArray);
-    myList.add("currently_learning = " + currentlyLearningArray);
-    System.out.println(Arrays.toString(myList))   
+```kotlin
+abstract class Person(name: String = "")
+
+abstract class Developer(job: String = "", name:String): Person(name)
+
+abstract class AndroidDeveloper(mainJob: String = "", name: String): Developer(name, mainJob)
+
+open class Me(var hobbies: List<String>? = arrayListOf(),
+              var currentlyLearning: List<String>? = arrayListOf(),
+              var wantLearn: List<String>? = arrayListOf(),
+         	  open var name: String = "", open var job: String = "", 
+              open var mainJob: String = ""): AndroidDeveloper(job, mainJob){
+    
+    override fun toString():String{
+        return "{"+
+        "'name':$name,"+
+        "'job': $job,"+
+        "'mainJob': $mainJob,"+
+        "'hobbies':$hobbies,"+
+        "'currentlyLearning': $currentlyLearning,"+
+        "'wantLearn': $wantLearn"+
+        "'}'"
+    }
+}
+
+fun main() {
+    val me = Me()
+    val myHobbies: List<String> = arrayListOf("Coding", "Animation", "Music", "Gaming", "TV", "Movies")
+    val thingsToLearn: List<String> = arrayListOf("Clean architechture", "UX design", "DI", "Kotlin")
+    val wantLearnList: List<String> = arrayListOf("Android compose", "Flutter", "Machine Learning", "Artificial Intelligence")
+    me.name = "David Heredia Tartajo"   
+    me.job = "Developer"
+    me.mainJob = "Android Developer"
+    me.hobbies = myHobbies
+    me.currentlyLearning = thingsToLearn
+    me.wantLearn = wantLearnList
+    
+    println(me)
+    
+}
+```
+
+``` js
+{
+    'name': "David Heredia Tartajo",
+    'job': "Developer",
+    'mainJob': "Android Developer",
+    'hobbies': ["Coding, Animation", "Music", "Gaming", "TV", "Movies"],
+    'currentlyLearning': ["Clean architechture", "UX design", "DI", "Kotlin"],
+    'wantLearn': ["Android compose", "Flutter", "Machine Learning", "Artificial Intelligence"]
 }
 ```
 
