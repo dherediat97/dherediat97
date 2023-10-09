@@ -1,8 +1,10 @@
-# Hi, I'm David Heredia
+# Hi, I'm David Heredia 
 
- Android Enginner
+App Developer
 
-    
+     🥇 Android Development
+     🥈 Hybrid Development
+     🥉 iOS Development
 #
 ### A few things to know about me...
 ```kotlin
@@ -32,7 +34,7 @@ open class Me(var hobbies: List<String>? = arrayListOf(),
 
 fun main() {
     val me = Me()
-    val myHobbies: List<String> = arrayListOf("Coding", "Animation", "Music", "Gaming", "TV", "Movies")
+    val myHobbies: List<String> = arrayListOf("Coding", "Animation", "Music", "Gaming", "TV", "Movies", "Some Anime")
     val thingsToLearn: List<String> = arrayListOf("Clean architechture", "UX design", "DI", "Kotlin")
     val wantLearnList: List<String> = arrayListOf("Android compose", "Flutter", "Machine Learning", "Artificial Intelligence")
     me.name = "David Heredia Tartajo"   
@@ -64,6 +66,7 @@ fun main() {
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
 ![OkHTTP](https://img.shields.io/badge/OKHTTP-262626?style=for-the-badge&logo=square&logoColor=blue) 
 ![Retrofit](https://img.shields.io/badge/Retrofit-262626?style=for-the-badge&logo=square&logoColor=blue) 
+![JetPack Compose](https://img.shields.io/badge/JetPack%20Compose-Green)
 
 ### iOS development
 ![Objetive C](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) 
