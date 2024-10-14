@@ -1,12 +1,15 @@
-# Hi, I'm David Heredia 
+### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sixtyfour+Convergence&color=%236b1117&multiline=true&repeat=false&size=25&height=75&width=800&duration=5000&lines=I'm+David+Heredia!;Mobile+Application+Developer)](https://git.io/typing-svg)
+     
      🥇 Android Development
      🥈 Hybrid Development
      🥉 iOS Development
-### A few things to know about me...
-```kotlin
-package this.is.my.life
+     
+### My profile Response Data Class
 
-data class Me (
+```kotlin
+package this.is.my.profile
+
+data class Profile (
     val person: Person,
     val job: String,
     val jobDetail: JobDetail,
@@ -24,10 +27,10 @@ data class Person (
 )
 
 fun main() {
-    val me = Me()
-    me.name = "David Heredia Tartajo"   
-    me.job = "Developer"
-    me.jobDetail = JobDetail(
+    val myProfile = Profile()
+    myProfile.name = "David Heredia Tartajo"   
+    myProfile.job = "Developer"
+    myProfile.jobDetail = JobDetail(
      currentJob= "Mobile Developer", 
      lastJobs = arrayListOf(
         "Ingenico Developer",
@@ -35,20 +38,21 @@ fun main() {
         "Backend Developer",
         "Front Developer"
     )
-    me.hobbies =  arrayListOf("Coding", "Animation", "Music", "Gaming", "TV", "Movies", "Anime")
-    me.wantLearn =  arrayListOf("Animation", "3D Design", "Robotics")
-
-    println(me)
+    myProfile.hobbies =  arrayListOf("Coding", "Animation", "Music", "Gaming", "TV", "Movies", "Anime")
+    myProfile.wantLearn =  arrayListOf("Animation", "3D Design", "Robotics")
 }
 ```
 
+### My profile request
+
 ``` http
-GET https://david.heredia.dev/life HTTP/1.1
+GET https://david.heredia.dev/profile HTTP/1.1
 Host: www.github.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0
 Accept: text/html, application/xhtml+xml, application/xml;q=0.9, image/webp, */*;q=0.8
 ```
 
+### My profile request response
 ```http
 HTTP/1.1 200 OK
 Content-Type: application/json
