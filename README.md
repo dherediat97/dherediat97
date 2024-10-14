@@ -195,6 +195,6 @@ fun main() {
 ### Misc
 ![LaTeX](https://img.shields.io/badge/LaTeX-1f425f.svg)
 
-### Some Charts about my github projects
+### Some data about my GitHub projects
 <img height="49%" align="left" src="https://github-readme-stats.vercel.app/api?username=dherediat97" />
 <img height="49%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=dherediat97&layout=compact&langs_count=8&card_width=320" />
