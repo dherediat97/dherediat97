@@ -1,4 +1,4 @@
-### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sixtyfour+Convergence&color=%236b1117&multiline=true&repeat=false&size=25&height=75&width=800&duration=5000&lines=I'm+David+Heredia!;Mobile+Application+Developer)](https://git.io/typing-svg)
+### [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Sixtyfour+Convergence&color=%236b1117&multiline=true&repeat=false&size=25&height=75&width=800&duration=7500&lines=I'm+David+Heredia!;Mobile+Application+Developer)](https://git.io/typing-svg)
      
      🥇 Android Development
      🥈 Hybrid Development
