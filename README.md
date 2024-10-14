@@ -196,5 +196,5 @@ fun main() {
 ![LaTeX](https://img.shields.io/badge/LaTeX-1f425f.svg)
 
 ### Some Charts about my github projects
-<img height=200 align="left" src="https://github-readme-stats.vercel.app/api?username=dherediat97" />
-<img height=200 align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=dherediat97&layout=compact&langs_count=8&card_width=320" />
+<img height="49%" align="left" src="https://github-readme-stats.vercel.app/api?username=dherediat97" />
+<img height="49%" align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=dherediat97&layout=compact&langs_count=8&card_width=320" />
